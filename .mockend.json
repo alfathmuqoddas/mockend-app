@@ -1,18 +1,11 @@
-{ "Name": {
-    "name": { "regexp": "[A-Z][a-z]{5,10}" } }
-  },
-  "Post": {
+{ "Post": {
     "name": { "regexp": "[A-Z][a-z]{5,10}" } },
     "title": { "string": {} },
     "post": { "loremParagraphs": { "minLength": 1, "maxLength": 5 }},
-    "comments": {
-      "hasMany": "Comment"
-    }
+    "comments": { "hasMany": "Comment" }
   },
   "Comment": {
     "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
+    "post": { "belongsTo": "Post" }
   }
 }
