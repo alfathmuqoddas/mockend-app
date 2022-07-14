@@ -1,8 +1,10 @@
 { "Post": {
-    "name": { "regexp": "[A-Z][a-z]{5,10}" } },
-    "title": { "string": {} },
-    "post": { "loremParagraphs": { "minLength": 1, "maxLength": 5 }},
-    "comments": { "hasMany": "Comment" }
+    "title": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
   },
   "Comment": {
     "body": { "string": {} },
