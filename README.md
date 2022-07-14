@@ -1,2 +1,2 @@
 # mockend-app
-[mockend.com](https://mockend.com)
+by [mockend.com](https://mockend.com)
