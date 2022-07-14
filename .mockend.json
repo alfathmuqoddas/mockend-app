@@ -1,3 +1,4 @@
 {
-  "Post": { "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" } }
+  "Post": { "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" } },
+  "User" : { "name" : { "regexp": "[A-Z][a-z]{5,10}" } }
 }
